@@ -68,15 +68,15 @@
 
 ** Objective/Motivation/Why
 
-#+REVEAL_HTML: <figure><img src="./images/future-org-people-I.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
+#+REVEAL_HTML: <figure><img src="./images/future-org-I.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
 
 ** Objective/Motivation/Why
 
-#+REVEAL_HTML: <figure><img src="./images/future-org-people-II.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
+#+REVEAL_HTML: <figure><img src="./images/future-org-II.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
 
 ** Objective/Motivation/Why
 
-#+REVEAL_HTML: <figure><img src="./images/future-org-people-III.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
+#+REVEAL_HTML: <figure><img src="./images/future-org-III.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
 
 * Who
 
