@@ -1,0 +1,123 @@
+#+title: Augmented Software Engineering 
+#+subtitle: State-of-the-Union (SOTU)
+#+date: 11-Mar-2027
+#+author: Roland Tritsch
+#+email: roland@tritsch.email
+#+reveal_theme: beige
+#+reveal_init_options: width:"80%"
+#+reveal_title_slide: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4>
+#+options: title:nil author:nil email:nil date:nil timestamp:nil
+#+options: toc:nil num:nil
+
+* Welcome/Objective
+
+#+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
+#+REVEAL_HTML:   <div style="width: 70%;">
+- Augmented Software-Engineering
+- Skate to where the puck is going to be
+- Tools, Processes, People
+#+REVEAL_HTML:   </div>
+#+REVEAL_HTML:   <div style="width: 30%; display: flex; align-items: center; justify-content: center;"><figure><img src="./images/wayne-gretzky.jpg" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://en.wikipedia.org/wiki/Wayne_Gretzky">https://en.wikipedia.org/wiki/Wayne_Gretzky</a></figcaption></figure></div>
+#+REVEAL_HTML: </div>
+
+#+BEGIN_NOTES
+
+- Who knows who Wayne Gretzky is?
+  - (Most) Legendary Hockey Player of all times
+  - When he was 40 he was still playing and was still better than most of the
+    the other 20-something players. A reporter asked him: How do you do it? I
+    never skate to where the puck is ...
+- Let's take stock and let's look forward
+
+#+END_NOTES
+
+* Objective/Motivation/Why
+
+#+REVEAL_HTML: <figure><img src="./images/agents-2026-II.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://sourcegraph.com/blog/revenge-of-the-junior-developer">https://sourcegraph.com/blog/revenge-of-the-junior-developer</a></figcaption></figure>
+
+#+BEGIN_NOTES
+
+- He is an opinionated (sometimes controversial) software-engineer who (last
+  year) wrote a blog-post about the revenge of the junior software engineer
+- This was an answer to the premise that junior software engineeer will be
+  replaced by AI. His answer was: Maybe not. Maybe they will replace
+  senior-engineers that are not ai-enabled. Let's wait and see ...
+- In this article he was also showing this picture. First we had super-IDEs
+  (with super tab-completion). Now we have/do vibe-coding. Next are agent
+  clusters/fleets. Let's talk about this later ...
+
+#+END_NOTES
+
+* Objective/Motivation/Why
+
+#+REVEAL_HTML: <figure><img src="./images/future-org.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
+
+#+BEGIN_NOTES
+
+- What does that mean for you? Change is coming!
+- Not only for you as individuals, but also for organisations in general
+- New processes need to be designed and new roles and responsibilities need to
+  be defined
+- How this will look like nobody really knows, but you all will get a shot at
+  these new roles
+- The aim of the lecture is to get you one step closer to being able to give it
+  your BEST shot
+- Let's go ...
+
+#+END_NOTES
+
+** Objective/Motivation/Why
+
+#+REVEAL_HTML: <figure><img src="./images/future-org-people-I.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
+
+** Objective/Motivation/Why
+
+#+REVEAL_HTML: <figure><img src="./images/future-org-people-II.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
+
+** Objective/Motivation/Why
+
+#+REVEAL_HTML: <figure><img src="./images/future-org-people-III.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/">https://tedn.life/2026/02/07/the-augmented-software-organization-moving-on/</a></figcaption></figure>
+
+* Who
+
+#+REVEAL_HTML: <figure><img src="./images/roland.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://tedn.life">https://tedn.life</a></figcaption></figure>
+
+#+BEGIN_NOTES
+
+- First things, first ...
+- Who is Roland?
+- Career CTO, Ailtir CTO, ...
+- Writing code, building systems, leading people, ... for 35 years (and
+  counting)
+- Passionate about Distributed Systems, Databases, Functional Programming
+  (Scala), (Remote-First) Software-Engineering, ...
+- Augmented Software Engineering Meetup (on Mar. 26th, 18:00, L1.03)
+
+#+END_NOTES
+
+* Agenda
+
+- Today
+- Tomorrow
+- Next week
+- Demo
+
+#+BEGIN_NOTES
+
+- ???
+- ???
+- ???
+
+#+END_NOTES
+
+* Wrap-Up/Questions
+
+#+REVEAL_HTML: <img src="./images/robot.webp" width="30%"/>
+
+#+BEGIN_NOTES
+
+- ???
+- ???
+- ???
+
+#+END_NOTES
