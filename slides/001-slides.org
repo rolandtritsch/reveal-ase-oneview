@@ -1,13 +1,13 @@
-#+title: Augmented Software Engineering 
-#+subtitle: State-of-the-Union @ OneView
-#+date: 11-Mar-2027
-#+author: Roland Tritsch
-#+email: roland@tritsch.email
-#+reveal_theme: beige
-#+reveal_init_options: width:"80%"
-#+reveal_title_slide: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4>
-#+options: title:nil author:nil email:nil date:nil timestamp:nil
-#+options: toc:nil num:nil
+#+TITLE: Augmented Software Engineering
+#+SUBTITLE: State-of-the-Union @ OneView
+#+DATE: 11-Mar-2027
+#+AUTHOR: Roland Tritsch
+#+EMAIL: roland@tritsch.email
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: width:"80%"
+#+REVEAL_TITLE_SLIDE: <h1 class=title>%t</h1><h3 class=title>%s</h3><h3 class=date>%d</h3><h4 class=email>%e</h4>
+#+OPTIONS: title:nil author:nil email:nil date:nil timestamp:nil
+#+OPTIONS: toc:nil num:nil
 
 * Welcome/Objective
 
@@ -116,6 +116,9 @@
 #+END_NOTES
 
 * Today - The Task/Firm Gap
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-visibility="hidden"
+:END:
 
 #+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
 #+REVEAL_HTML:   <div style="width: 70%;">
@@ -125,13 +128,13 @@
 - Experienced/highly skilled workers: near zero
 - Caveat: data from 2022/early 2023 — pre-GPT-4 era tools
 
-#+attr_html: :style font-size:0.8em
-#+begin_quote
+#+ATTR_HTML: :style font-size:0.8em
+#+BEGIN_QUOTE
 "Access to the tool increases productivity by 14% on average, with large
 heterogeneity: a 34% improvement for novice and low-skilled workers but
 minimal impact on experienced and highly skilled workers."
 — Brynjolfsson, Li, Raymond — "Generative AI at Work", QJE 2025 (NBER WP 31161)
-#+end_quote
+#+END_QUOTE
 #+REVEAL_HTML:   </div>
 #+REVEAL_HTML:   <div style="width: 30%; display: flex; align-items: center; justify-content: center;"><figure><img src="./images/mit-task-firm-gap.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: Brynjolfsson et al., MIT Initiative on the Digital Economy</figcaption></figure></div>
 #+REVEAL_HTML: </div>
@@ -156,6 +159,9 @@ minimal impact on experienced and highly skilled workers."
 #+END_NOTES
 
 * Today - Task-Level Productivity: The Surprise
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-visibility="hidden"
+:END:
 
 #+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
 #+REVEAL_HTML:   <div style="width: 70%;">
@@ -164,13 +170,13 @@ minimal impact on experienced and highly skilled workers."
 - Used Cursor Pro + Claude 3.5/3.7 Sonnet — state of the art tools
 - Result: developers took *19% longer* with AI than without
 
-#+attr_html: :style font-size:0.8em
-#+begin_quote
+#+ATTR_HTML: :style font-size:0.8em
+#+BEGIN_QUOTE
 "When developers use AI tools, they take 19% longer than without — AI makes
 them slower. The gap between perception and reality is striking: developers
 expected AI to speed them up by 24%."
 — Becker, Rush, Barnes, Rein — METR, July 2025 (arXiv:2507.09089)
-#+end_quote
+#+END_QUOTE
 #+REVEAL_HTML:   </div>
 #+REVEAL_HTML:   <div style="width: 30%; display: flex; align-items: center; justify-content: center;"><figure><img src="./images/metr-productivity-study.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/">METR, July 2025</a></figcaption></figure></div>
 #+REVEAL_HTML: </div>
