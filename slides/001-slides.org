@@ -411,11 +411,11 @@ Invest in your ...
 
 ** Review the review
 
-#+REVEAL_HTML: <figure><img src="./images/review-bottleneck.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://www.latent.space/p/reviews-dead">https://www.latent.space/p/reviews-dead</a></figcaption></figure>
+#+REVEAL_HTML: <figure><img src="./images/review-bottleneck.png" width="60%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://www.latent.space/p/reviews-dead">https://www.latent.space/p/reviews-dead</a></figcaption></figure>
 
 ** Review the review
 
-#+REVEAL_HTML: <figure><img src="./images/swiss-cheese-reviews.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://www.latent.space/p/reviews-dead">https://www.latent.space/p/reviews-dead</a></figcaption></figure>
+#+REVEAL_HTML: <figure><img src="./images/swiss-cheese-reviews.png" width="60%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://www.latent.space/p/reviews-dead">https://www.latent.space/p/reviews-dead</a></figcaption></figure>
 
 * This year - Opportunities
 
@@ -465,14 +465,14 @@ Invest in your ...
 * This year - Agent-Management Platforms
 
 #+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
-#+REVEAL_HTML:   <div style="width: 70%;">
+#+REVEAL_HTML:   <div style="width: 60%;">
 - Kubernetes for Agents
 - Not working towards =up=, but towards =done= (nothing to do)
 - Gastown, Agent-Flywheel, CrewAI, ...
 - Mixed experience/results (with Gastown)
   - Buggy, patience, cost, ...
 #+REVEAL_HTML:   </div>
-#+REVEAL_HTML:   <div style="width: 30%; display: flex; align-items: center; justify-content: center;"><figure><img src="./images/gastown-cost.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: Gastown</figcaption></figure></div>
+#+REVEAL_HTML:   <div style="width: 40%; display: flex; align-items: center; justify-content: center;"><figure><img src="./images/gastown-cost.png" width="100%"/><figcaption style="font-size: 0.5em;">Source: Gastown</figcaption></figure></div>
 #+REVEAL_HTML: </div>
 
 #+BEGIN_NOTES
