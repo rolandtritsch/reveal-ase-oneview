@@ -28,7 +28,13 @@ const url = baseUrl + separator + 'print-pdf' + (notesFlag ? '&showNotes=true' :
   await page.goto(url, { waitUntil: 'networkidle0', timeout: 30000 });
   await page.waitForFunction(
     () => typeof Reveal !== 'undefined' && Reveal.isReady(),
-    { timeout: 15000 },
+    { timeout: 30000 },
+  );
+  // Reveal.js 5.x creates .pdf-page elements asynchronously (via requestAnimationFrame)
+  // after isReady() fires. Wait until at least one .pdf-page exists before printing.
+  await page.waitForFunction(
+    () => document.querySelectorAll('.pdf-page').length > 0,
+    { timeout: 30000 },
   );
 
   if (notesFlag) {
