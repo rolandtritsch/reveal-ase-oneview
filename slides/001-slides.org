@@ -1,5 +1,5 @@
 #+title: Augmented Software Engineering 
-#+subtitle: State-of-the-Union (SOTU)
+#+subtitle: State-of-the-Union @ OneView
 #+date: 11-Mar-2027
 #+author: Roland Tritsch
 #+email: roland@tritsch.email
@@ -15,19 +15,24 @@
 #+REVEAL_HTML:   <div style="width: 70%;">
 - Augmented Software-Engineering
 - Skate to where the puck is going to be
-- Tools, Processes, People
+- Today, this year and beyond
+- The opportunities and the challenges 
 #+REVEAL_HTML:   </div>
 #+REVEAL_HTML:   <div style="width: 30%; display: flex; align-items: center; justify-content: center;"><figure><img src="./images/wayne-gretzky.jpg" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://en.wikipedia.org/wiki/Wayne_Gretzky">https://en.wikipedia.org/wiki/Wayne_Gretzky</a></figcaption></figure></div>
 #+REVEAL_HTML: </div>
 
 #+BEGIN_NOTES
 
+- Why are we here in this room (besides that Declan and myself bumped into each
+  other at the SonaLake Christmas Party and besides that I am running the ASE
+  meetup)?
 - Who knows who Wayne Gretzky is?
   - (Most) Legendary Hockey Player of all times
   - When he was 40 he was still playing and was still better than most of the
     the other 20-something players. A reporter asked him: How do you do it? I
-    never skate to where the puck is ...
-- Let's take stock and let's look forward
+    never skate to where the puck is. I always skate to where the puck is going
+    to be!
+- Let's (try to) skate to ...
 
 #+END_NOTES
 
@@ -54,15 +59,11 @@
 
 #+BEGIN_NOTES
 
-- What does that mean for you? Change is coming!
+- What does that mean for you? Change is coming! Evolution vs. Revolution?
 - Not only for you as individuals, but also for organisations in general
 - New processes need to be designed and new roles and responsibilities need to
   be defined
-- How this will look like nobody really knows, but you all will get a shot at
-  these new roles
-- The aim of the lecture is to get you one step closer to being able to give it
-  your BEST shot
-- Let's go ...
+- Food for thought ...
 
 #+END_NOTES
 
@@ -84,23 +85,204 @@
 
 #+BEGIN_NOTES
 
-- First things, first ...
+- First things first ...
 - Who is Roland?
 - Career CTO, Ailtir CTO, ...
 - Writing code, building systems, leading people, ... for 35 years (and
   counting)
 - Passionate about Distributed Systems, Databases, Functional Programming
   (Scala), (Remote-First) Software-Engineering, ...
-- Augmented Software Engineering Meetup (on Mar. 26th, 18:00, L1.03)
+- Augmented Software Engineering Meetup (on Mar. 26th, 18:00, UCD, L1.03)
+- Disclaimer: Opinionated, biased, ..., time-constrained (picking random points)
 
 #+END_NOTES
 
-* Agenda
+* Today
 
-- Today
-- Tomorrow
-- Next week
-- Demo
+- Multispeed adoption
+  - individuals vs. organisations
+  - tasks (5x) vs. results/impact (0.5x)
+  - by size (small(er) eq. fast(er))
+  - by industry (regulated)
+  - by lifecycle (prototype vs. maintenance)
+- It is easy to feel slow :)
+
+#+BEGIN_NOTES
+
+- ???
+- ???
+- ???
+
+#+END_NOTES
+
+* Today - The Task/Firm Gap
+
+#+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
+#+REVEAL_HTML:   <div style="width: 70%;">
+- AI studied on 5,179 customer support agents (randomized trial)
+- Average productivity gain: +14%
+- Novice/low-skilled workers: +34%
+- Experienced/highly skilled workers: near zero
+- Caveat: data from 2022/early 2023 — pre-GPT-4 era tools
+
+#+attr_html: :style font-size:0.8em
+#+begin_quote
+"Access to the tool increases productivity by 14% on average, with large
+heterogeneity: a 34% improvement for novice and low-skilled workers but
+minimal impact on experienced and highly skilled workers."
+— Brynjolfsson, Li, Raymond — "Generative AI at Work", QJE 2025 (NBER WP 31161)
+#+end_quote
+#+REVEAL_HTML:   </div>
+#+REVEAL_HTML:   <div style="width: 30%; display: flex; align-items: center; justify-content: center;"><figure><img src="./images/mit-task-firm-gap.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: Brynjolfsson et al., MIT Initiative on the Digital Economy</figcaption></figure></div>
+#+REVEAL_HTML: </div>
+
+#+BEGIN_NOTES
+
+- This is a rigorous randomized controlled trial — not a survey, not vibes
+- The headline number (+14%) sounds good, but the distribution is the story
+- Experienced workers: near zero gain. That is the audience in this room.
+- Mechanism: AI acts as a "best practice diffuser" — it brings novices up to
+  the level of senior workers by giving them access to patterns they would
+  otherwise have to learn over years
+- For senior engineers that mechanism does not apply — they already have those
+  patterns. Their gains need to come from a different source: speed, scale,
+  reduction of toil
+- This sets up the next slide perfectly: what DOES happen to experienced
+  engineers when they use AI tools?
+- If challenged on the data age: acknowledge it, and point forward to the
+  next slide — METR replicated the experienced-worker finding in 2025 with
+  best-in-class tools, so the conclusion holds
+
+#+END_NOTES
+
+* Today - Task-Level Productivity: The Surprise
+
+#+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
+#+REVEAL_HTML:   <div style="width: 70%;">
+- METR ran a randomized controlled trial (July 2025)
+- 16 experienced developers, 246 real issues in large open-source codebases
+- Used Cursor Pro + Claude 3.5/3.7 Sonnet — state of the art tools
+- Result: developers took *19% longer* with AI than without
+
+#+attr_html: :style font-size:0.8em
+#+begin_quote
+"When developers use AI tools, they take 19% longer than without — AI makes
+them slower. The gap between perception and reality is striking: developers
+expected AI to speed them up by 24%."
+— Becker, Rush, Barnes, Rein — METR, July 2025 (arXiv:2507.09089)
+#+end_quote
+#+REVEAL_HTML:   </div>
+#+REVEAL_HTML:   <div style="width: 30%; display: flex; align-items: center; justify-content: center;"><figure><img src="./images/metr-productivity-study.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/">METR, July 2025</a></figcaption></figure></div>
+#+REVEAL_HTML: </div>
+
+#+BEGIN_NOTES
+
+- This is the most important data point in the whole presentation — and the
+  most counterintuitive
+- These are not junior developers on toy tasks. These are experienced
+  contributors to large, mature open-source codebases. Using best-in-class tools.
+- And they got slower. Why?
+  - Context-switching between AI suggestions and their own mental model
+  - Time spent evaluating, correcting, and re-prompting
+  - Loss of flow state
+- The perception gap is equally striking: they BELIEVED they were 20% faster.
+  They were 19% slower. That is a 43 percentage-point calibration error.
+- This does NOT mean AI is useless — it means we are still early, and the
+  productivity wins require deliberate workflow redesign, not just tool adoption
+- Lab studies on isolated tasks (boilerplate, test gen) do show speed gains —
+  the question is whether that translates to the full development cycle
+
+#+END_NOTES
+
+* Today - Challenges
+
+- Low signal to noise ratio (noise is high(er))
+- No adapation/maturity frameworks (for organisations)
+- Confusing, Frustrating, Intimitating, Threatening, ...
+
+#+BEGIN_NOTES
+
+- ???
+- ???
+- ???
+
+#+END_NOTES
+
+* Today - Opportunities
+
+- Continue to level-up individuals
+- Develop your own adoption framework/style
+  - Spec-Driven Design vs. Pair-Programming
+  - Standardization, Agents, Agents-Automation
+
+#+BEGIN_NOTES
+
+- ???
+- ???
+- ???
+
+#+END_NOTES
+
+* Today - Suggestions
+
+Invest in your ...
+
+- business-domain know-how
+- ability to read/review (a lot and fast)
+- ability to express requirements (what needs to be build)
+- ability to express how good/right looks like (definition of done)
+- tools and tooling
+
+#+BEGIN_NOTES
+
+- ???
+- ???
+- ???
+
+#+END_NOTES
+
+* This year - Challenges
+
+- The new burn-out. Too much ...
+  - reading, context-switching, "change"
+- Shifting the time/money budget
+  - Learning/Tooling/Doing - 10/20/70 - 20/30/50
+
+#+BEGIN_NOTES
+
+- ???
+- ???
+- ???
+
+#+END_NOTES
+
+* This year - Opportunities
+
+- The better reviews
+- (Start to) Think different ...
+  - Build a system to build systems (Mobile-Micro Factory)
+
+#+BEGIN_NOTES
+
+- ???
+- ???
+- ???
+
+#+END_NOTES
+
+** Review the review
+
+#+REVEAL_HTML: <figure><img src="./images/review-bottleneck.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://www.latent.space/p/reviews-dead">https://www.latent.space/p/reviews-dead</a></figcaption></figure>
+
+** Review the review
+
+#+REVEAL_HTML: <figure><img src="./images/swiss-cheese-reviews.png" width="80%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://www.latent.space/p/reviews-dead">https://www.latent.space/p/reviews-dead</a></figcaption></figure>
+
+* Beyond
+
+- Closing the loop: Systems, write systems
+- Living in a world with no constrains? An abundance of solutions?
+  - You do not need to prioritze anymore. Everything can be built!
 
 #+BEGIN_NOTES
 
