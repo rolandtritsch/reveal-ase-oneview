@@ -13,7 +13,6 @@
 
 #+REVEAL_HTML: <div style="display: flex; align-items: center; width: 100%;">
 #+REVEAL_HTML:   <div style="width: 70%;">
-- Augmented Software-Engineering
 - Skate to where the puck is going to be
 - Today, this year and beyond
 - The opportunities and the challenges 
@@ -261,10 +260,10 @@ expected AI to speed them up by 24%."
 
 - Continue to level-up (as individuals)
 - Develop your own adoption framework/style (as organisations) 
-  - Spec-Driven Design vs. Pair-Programming
+  - Spec-Driven Design vs. Pair-Programming vs. Automation
   - Standardization, Agents, Agents-Automation
 - Invest in =*-as-Code= (to get ready for what comes next)
-  - Infrastructure, Architecture, Test (coverage, mutation, ...)
+  - Infrastructure, Architecture, Quality (lint, mutation, ...)
 
 #+BEGIN_NOTES
 
@@ -411,7 +410,7 @@ Invest in your ...
 
 ** Review the review
 
-#+REVEAL_HTML: <figure><img src="./images/review-bottleneck.png" width="60%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://www.latent.space/p/reviews-dead">https://www.latent.space/p/reviews-dead</a></figcaption></figure>
+#+REVEAL_HTML: <figure><img src="./images/review-bottleneck.png" width="50%"/><figcaption style="font-size: 0.5em;">Source: <a href="https://www.latent.space/p/reviews-dead">https://www.latent.space/p/reviews-dead</a></figcaption></figure>
 
 ** Review the review
 
